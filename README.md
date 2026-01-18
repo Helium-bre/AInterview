@@ -38,6 +38,11 @@ python backend/main.py
 
 The backend API will be available at `http://localhost:5000`
 
+### Important Note
+
+When creating an account, make sure to check your inbox to confirm your account creation before log in.
+
+
 ## Features
 
 - Voice-based interview practice
@@ -57,4 +62,8 @@ The backend API will be available at `http://localhost:5000`
 ### Backend
 - Python
 - FastAPI
-" 
+
+### Tools
+- ElevenLabs
+- Gemini API
+- SupaBase
