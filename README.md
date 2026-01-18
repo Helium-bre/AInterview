@@ -62,4 +62,8 @@ When creating an account, make sure to check your inbox to confirm your account 
 ### Backend
 - Python
 - FastAPI
-" 
+
+### Tools
+- ElevenLabs
+- Gemini API
+- SupaBase
