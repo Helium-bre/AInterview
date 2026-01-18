@@ -197,7 +197,9 @@ export default function FeedbackReport( {} ) {
                 </ul> */
                 }
 
-                <p>{feedback.feedback}</p>
+                <div className="whitespace-pre-wrap text-sm leading-relaxed">
+                      {feedback.feedback}
+                </div>
               </CardContent>
             </Card>
           </motion.div>
