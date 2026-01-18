@@ -25,7 +25,7 @@ export function Sidebar() {
       {/* Logo Section */}
       <div className="flex items-center gap-3 px-4 py-6 border-b border-sidebar-border">
         <div>
-          <h1 className="text-lg font-bold text-sidebar-foreground">HireHero</h1>
+          <h1 className="text-lg font-bold text-sidebar-foreground">AInterview</h1>
           <p className="text-xs text-sidebar-foreground/60">AI Interview Coach</p>
         </div>
       </div>

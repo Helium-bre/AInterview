@@ -40,7 +40,7 @@ export default function Landing() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="font-bold text-xl text-foreground">HireHero</span>
+            <span className="font-bold text-xl text-foreground">AInterview</span>
           </div>
           <div className="flex items-center gap-4">
             {user && (
@@ -170,7 +170,7 @@ export default function Landing() {
       <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-foreground">HireHero</span>
+            <span className="font-semibold text-foreground">AInterview</span>
           </div>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
             Built with <Heart className="w-4 h-4 text-primary fill-primary" /> for McHacks 26

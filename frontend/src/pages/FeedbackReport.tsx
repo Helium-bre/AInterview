@@ -177,7 +177,7 @@ export default function FeedbackReport( {} ) {
           >
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-green-500">What You Did Well</CardTitle>
+                <CardTitle className="text-green-500">Feedback</CardTitle>
               </CardHeader>
               <CardContent>
                 { /*
