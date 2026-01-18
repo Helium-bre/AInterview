@@ -19,7 +19,7 @@ def get_ai_feedback(job_description, type_of_interview, chat_history_list):
         f"Job Description: {job_description}\n"
         f"Interview Type: {type_of_interview}\n"
         "Give bullets point reviewing the interview:"
-        "3 bullets point for strengths if there are any, and 3 bullets point for areas of improvement if there are any. INSERT NEWLINE CHARACTERS AT THE END OF THE LINE. DO NOT ADD ANYTHING ELSE.\n"
+        "3 bullets point for strengths if there are any, and 3 bullets point for areas of improvement if there are any. DO NOT ADD ANYTHING ELSE.\n"
         "Use the following format:\n"
         "Strengths:\n"
         "- Strength 1\n"
