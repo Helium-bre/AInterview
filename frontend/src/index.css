@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* HireHero Design System - Friendly Professional */
+
+@layer base {
+  :root {
+    /* Core brand colors - Teal/Cyan primary with warm coral accents */
+    --background: 210 20% 98%;
+    --foreground: 220 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 15%;
+
+    /* Primary - Friendly Teal */
+    --primary: 175 70% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Soft slate for UI elements */
+    --secondary: 215 20% 95%;
+    --secondary-foreground: 220 25% 25%;
+
+    --muted: 210 15% 93%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Accent - Warm coral for gamification */
+    --accent: 15 85% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Success - For positive scores */
+    --success: 160 70% 40%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning - For medium scores */
+    --warning: 40 95% 55%;
+    --warning-foreground: 30 30% 15%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 20% 88%;
+    --input: 215 20% 88%;
+    --ring: 175 70% 40%;
+
+    --radius: 1rem;
+
+    /* Sidebar - Warm dark slate */
+    --sidebar-background: 220 25% 12%;
+    --sidebar-foreground: 210 15% 90%;
+    --sidebar-primary: 175 70% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 25% 18%;
+    --sidebar-accent-foreground: 210 15% 95%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 175 70% 50%;
+
+    /* Custom gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(175 70% 40%) 0%, hsl(190 75% 50%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(15 85% 60%) 0%, hsl(25 90% 55%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(160 70% 40%) 0%, hsl(170 75% 45%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 20% 98%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px -2px hsl(220 25% 15% / 0.08);
+    --shadow-md: 0 8px 24px -8px hsl(220 25% 15% / 0.12);
+    --shadow-lg: 0 16px 48px -12px hsl(220 25% 15% / 0.15);
+    --shadow-glow: 0 0 40px -10px hsl(175 70% 40% / 0.3);
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 15% 95%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 210 15% 95%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 210 15% 95%;
+
+    --primary: 175 70% 50%;
+    --primary-foreground: 220 25% 10%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 210 15% 90%;
+
+    --muted: 220 20% 15%;
+    --muted-foreground: 215 15% 55%;
+
+    --accent: 15 85% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 160 65% 45%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 40 90% 50%;
+    --warning-foreground: 30 30% 10%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 175 70% 50%;
+
+    --sidebar-background: 220 25% 6%;
+    --sidebar-foreground: 210 15% 90%;
+    --sidebar-primary: 175 70% 55%;
+    --sidebar-primary-foreground: 220 25% 8%;
+    --sidebar-accent: 220 25% 12%;
+    --sidebar-accent-foreground: 210 15% 95%;
+    --sidebar-border: 220 20% 15%;
+    --sidebar-ring: 175 70% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .gradient-success {
+    background: var(--gradient-success);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .text-gradient {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
