@@ -1,4 +1,4 @@
-"# AInterview
+# AInterview
 
 A full-stack interview preparation platform that combines voice-based interview simulations with AI-powered feedback.
 
