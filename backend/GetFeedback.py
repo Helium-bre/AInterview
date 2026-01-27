@@ -2,8 +2,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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", 
-)
+    api_key="<API KEY>", )
 
 def get_ai_feedback(job_description, type_of_interview, chat_history_list):
     """
